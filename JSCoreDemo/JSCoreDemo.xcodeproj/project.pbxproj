@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2326AC5320746A7A006FE12F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2326AC5220746A7A006FE12F /* AppDelegate.m */; };
+		2326AC5620746A7A006FE12F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2326AC5520746A7A006FE12F /* ViewController.m */; };
+		2326AC5920746A7A006FE12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2326AC5720746A7A006FE12F /* Main.storyboard */; };
+		2326AC5B20746A7A006FE12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326AC5A20746A7A006FE12F /* Assets.xcassets */; };
+		2326AC5E20746A7A006FE12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2326AC5C20746A7A006FE12F /* LaunchScreen.storyboard */; };
+		2326AC6120746A7A006FE12F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2326AC6020746A7A006FE12F /* main.m */; };
+		2326AC702074EEB8006FE12F /* LEFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2326AC6F2074EEB8006FE12F /* LEFWebViewController.m */; };
+		233641B520C2C61F0029F301 /* LEFUIWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233641B420C2C61F0029F301 /* LEFUIWebViewViewController.m */; };
+		233641B820C373FA0029F301 /* JSExcuteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233641B720C373FA0029F301 /* JSExcuteViewController.m */; };
+		233641BB20C37A280029F301 /* JSExcuteEditerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 233641BA20C37A280029F301 /* JSExcuteEditerView.m */; };
+		233641BE20C37ADD0029F301 /* JSExcuteConsoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 233641BD20C37ADD0029F301 /* JSExcuteConsoleView.m */; };
+		235220F420C8CEFE00B33A76 /* json.html in Resources */ = {isa = PBXBuildFile; fileRef = 235220F320C8CEFD00B33A76 /* json.html */; };
+		2352F13720765F2E00020799 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2352F13620765F2E00020799 /* Person.m */; };
+		2352F1D220785ADB00020799 /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2352F1D120785ADB00020799 /* Runtime.m */; };
+		2374F36E20D4B975000C1E30 /* TeachSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374F36D20D4B975000C1E30 /* TeachSet.m */; };
+		2374F37120D4B9A9000C1E30 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374F37020D4B9A9000C1E30 /* Member.m */; };
+		2374F37720D4BD60000C1E30 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374F37620D4BD60000C1E30 /* Manager.m */; };
+		2374F37A20D4BFA7000C1E30 /* JSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374F37920D4BFA7000C1E30 /* JSBaseViewController.m */; };
+		2374F37D20D4C01D000C1E30 /* JSExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2374F37C20D4C01D000C1E30 /* JSExportViewController.m */; };
+		23D4F52720C80166000C211E /* EditerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D4F52620C80166000C211E /* EditerViewController.m */; };
+		23E6545020B28E7600A6C43B /* HybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E6544F20B28E7600A6C43B /* HybridViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2326AC4E20746A7A006FE12F /* JSCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2326AC5120746A7A006FE12F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2326AC5220746A7A006FE12F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2326AC5420746A7A006FE12F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2326AC5520746A7A006FE12F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2326AC5820746A7A006FE12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2326AC5A20746A7A006FE12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2326AC5D20746A7A006FE12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2326AC5F20746A7A006FE12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2326AC6020746A7A006FE12F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2326AC6E2074EEB8006FE12F /* LEFWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEFWebViewController.h; sourceTree = "<group>"; };
+		2326AC6F2074EEB8006FE12F /* LEFWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEFWebViewController.m; sourceTree = "<group>"; };
+		233641B320C2C61E0029F301 /* LEFUIWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEFUIWebViewViewController.h; sourceTree = "<group>"; };
+		233641B420C2C61F0029F301 /* LEFUIWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEFUIWebViewViewController.m; sourceTree = "<group>"; };
+		233641B620C373FA0029F301 /* JSExcuteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSExcuteViewController.h; sourceTree = "<group>"; };
+		233641B720C373FA0029F301 /* JSExcuteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSExcuteViewController.m; sourceTree = "<group>"; };
+		233641B920C37A280029F301 /* JSExcuteEditerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSExcuteEditerView.h; sourceTree = "<group>"; };
+		233641BA20C37A280029F301 /* JSExcuteEditerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSExcuteEditerView.m; sourceTree = "<group>"; };
+		233641BC20C37ADD0029F301 /* JSExcuteConsoleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSExcuteConsoleView.h; sourceTree = "<group>"; };
+		233641BD20C37ADD0029F301 /* JSExcuteConsoleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSExcuteConsoleView.m; sourceTree = "<group>"; };
+		235220F320C8CEFD00B33A76 /* json.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = json.html; sourceTree = "<group>"; };
+		2352F13520765F2E00020799 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2352F13620765F2E00020799 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2352F1D020785ADB00020799 /* Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		2352F1D120785ADB00020799 /* Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime.m; sourceTree = "<group>"; };
+		2374F36C20D4B975000C1E30 /* TeachSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeachSet.h; sourceTree = "<group>"; };
+		2374F36D20D4B975000C1E30 /* TeachSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeachSet.m; sourceTree = "<group>"; };
+		2374F36F20D4B9A9000C1E30 /* Member.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		2374F37020D4B9A9000C1E30 /* Member.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		2374F37520D4BD60000C1E30 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		2374F37620D4BD60000C1E30 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		2374F37820D4BFA7000C1E30 /* JSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSBaseViewController.h; sourceTree = "<group>"; };
+		2374F37920D4BFA7000C1E30 /* JSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBaseViewController.m; sourceTree = "<group>"; };
+		2374F37B20D4C01D000C1E30 /* JSExportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSExportViewController.h; sourceTree = "<group>"; };
+		2374F37C20D4C01D000C1E30 /* JSExportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSExportViewController.m; sourceTree = "<group>"; };
+		23D4F52520C80166000C211E /* EditerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditerViewController.h; sourceTree = "<group>"; };
+		23D4F52620C80166000C211E /* EditerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditerViewController.m; sourceTree = "<group>"; };
+		23DCF87C20D73EFB0094C9ED /* UILabelExportProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelExportProtocol.h; sourceTree = "<group>"; };
+		23E6544E20B28E7600A6C43B /* HybridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HybridViewController.h; sourceTree = "<group>"; };
+		23E6544F20B28E7600A6C43B /* HybridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2326AC4B20746A7A006FE12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2326AC4520746A7A006FE12F = {
+			isa = PBXGroup;
+			children = (
+				2326AC5020746A7A006FE12F /* JSCoreDemo */,
+				2326AC4F20746A7A006FE12F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2326AC4F20746A7A006FE12F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2326AC4E20746A7A006FE12F /* JSCoreDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2326AC5020746A7A006FE12F /* JSCoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2374F36B20D4B908000C1E30 /* export */,
+				235220F320C8CEFD00B33A76 /* json.html */,
+				2326AC5120746A7A006FE12F /* AppDelegate.h */,
+				2326AC5220746A7A006FE12F /* AppDelegate.m */,
+				2326AC5420746A7A006FE12F /* ViewController.h */,
+				2326AC5520746A7A006FE12F /* ViewController.m */,
+				2326AC5720746A7A006FE12F /* Main.storyboard */,
+				2326AC5A20746A7A006FE12F /* Assets.xcassets */,
+				2326AC5C20746A7A006FE12F /* LaunchScreen.storyboard */,
+				2326AC5F20746A7A006FE12F /* Info.plist */,
+				2326AC6020746A7A006FE12F /* main.m */,
+				2326AC6E2074EEB8006FE12F /* LEFWebViewController.h */,
+				2326AC6F2074EEB8006FE12F /* LEFWebViewController.m */,
+				2352F13520765F2E00020799 /* Person.h */,
+				2352F13620765F2E00020799 /* Person.m */,
+				2352F1D020785ADB00020799 /* Runtime.h */,
+				2352F1D120785ADB00020799 /* Runtime.m */,
+				23E6544E20B28E7600A6C43B /* HybridViewController.h */,
+				23E6544F20B28E7600A6C43B /* HybridViewController.m */,
+				233641B320C2C61E0029F301 /* LEFUIWebViewViewController.h */,
+				233641B420C2C61F0029F301 /* LEFUIWebViewViewController.m */,
+				233641B620C373FA0029F301 /* JSExcuteViewController.h */,
+				233641B720C373FA0029F301 /* JSExcuteViewController.m */,
+				233641B920C37A280029F301 /* JSExcuteEditerView.h */,
+				233641BA20C37A280029F301 /* JSExcuteEditerView.m */,
+				233641BC20C37ADD0029F301 /* JSExcuteConsoleView.h */,
+				233641BD20C37ADD0029F301 /* JSExcuteConsoleView.m */,
+				23D4F52520C80166000C211E /* EditerViewController.h */,
+				23D4F52620C80166000C211E /* EditerViewController.m */,
+				2374F37820D4BFA7000C1E30 /* JSBaseViewController.h */,
+				2374F37920D4BFA7000C1E30 /* JSBaseViewController.m */,
+			);
+			path = JSCoreDemo;
+			sourceTree = "<group>";
+		};
+		2374F36B20D4B908000C1E30 /* export */ = {
+			isa = PBXGroup;
+			children = (
+				2374F36C20D4B975000C1E30 /* TeachSet.h */,
+				2374F36D20D4B975000C1E30 /* TeachSet.m */,
+				2374F36F20D4B9A9000C1E30 /* Member.h */,
+				2374F37020D4B9A9000C1E30 /* Member.m */,
+				2374F37520D4BD60000C1E30 /* Manager.h */,
+				2374F37620D4BD60000C1E30 /* Manager.m */,
+				2374F37B20D4C01D000C1E30 /* JSExportViewController.h */,
+				2374F37C20D4C01D000C1E30 /* JSExportViewController.m */,
+				23DCF87C20D73EFB0094C9ED /* UILabelExportProtocol.h */,
+			);
+			name = export;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2326AC4D20746A7A006FE12F /* JSCoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2326AC6420746A7A006FE12F /* Build configuration list for PBXNativeTarget "JSCoreDemo" */;
+			buildPhases = (
+				2326AC4A20746A7A006FE12F /* Sources */,
+				2326AC4B20746A7A006FE12F /* Frameworks */,
+				2326AC4C20746A7A006FE12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSCoreDemo;
+			productName = JSCoreDemo;
+			productReference = 2326AC4E20746A7A006FE12F /* JSCoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2326AC4620746A7A006FE12F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Wang,Suyan";
+				TargetAttributes = {
+					2326AC4D20746A7A006FE12F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2326AC4920746A7A006FE12F /* Build configuration list for PBXProject "JSCoreDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2326AC4520746A7A006FE12F;
+			productRefGroup = 2326AC4F20746A7A006FE12F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2326AC4D20746A7A006FE12F /* JSCoreDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2326AC4C20746A7A006FE12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235220F420C8CEFE00B33A76 /* json.html in Resources */,
+				2326AC5E20746A7A006FE12F /* LaunchScreen.storyboard in Resources */,
+				2326AC5B20746A7A006FE12F /* Assets.xcassets in Resources */,
+				2326AC5920746A7A006FE12F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2326AC4A20746A7A006FE12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233641B820C373FA0029F301 /* JSExcuteViewController.m in Sources */,
+				2352F13720765F2E00020799 /* Person.m in Sources */,
+				23D4F52720C80166000C211E /* EditerViewController.m in Sources */,
+				2374F36E20D4B975000C1E30 /* TeachSet.m in Sources */,
+				23E6545020B28E7600A6C43B /* HybridViewController.m in Sources */,
+				2374F37120D4B9A9000C1E30 /* Member.m in Sources */,
+				2352F1D220785ADB00020799 /* Runtime.m in Sources */,
+				2374F37D20D4C01D000C1E30 /* JSExportViewController.m in Sources */,
+				2374F37720D4BD60000C1E30 /* Manager.m in Sources */,
+				233641BE20C37ADD0029F301 /* JSExcuteConsoleView.m in Sources */,
+				2326AC5620746A7A006FE12F /* ViewController.m in Sources */,
+				2326AC6120746A7A006FE12F /* main.m in Sources */,
+				233641B520C2C61F0029F301 /* LEFUIWebViewViewController.m in Sources */,
+				2326AC702074EEB8006FE12F /* LEFWebViewController.m in Sources */,
+				2374F37A20D4BFA7000C1E30 /* JSBaseViewController.m in Sources */,
+				2326AC5320746A7A006FE12F /* AppDelegate.m in Sources */,
+				233641BB20C37A280029F301 /* JSExcuteEditerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2326AC5720746A7A006FE12F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2326AC5820746A7A006FE12F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2326AC5C20746A7A006FE12F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2326AC5D20746A7A006FE12F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2326AC6220746A7A006FE12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2326AC6320746A7A006FE12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2326AC6520746A7A006FE12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T22XVGFXD4;
+				INFOPLIST_FILE = JSCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lefe.JSCoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2326AC6620746A7A006FE12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T22XVGFXD4;
+				INFOPLIST_FILE = JSCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lefe.JSCoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2326AC4920746A7A006FE12F /* Build configuration list for PBXProject "JSCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2326AC6220746A7A006FE12F /* Debug */,
+				2326AC6320746A7A006FE12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2326AC6420746A7A006FE12F /* Build configuration list for PBXNativeTarget "JSCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2326AC6520746A7A006FE12F /* Debug */,
+				2326AC6620746A7A006FE12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2326AC4620746A7A006FE12F /* Project object */;
+}
