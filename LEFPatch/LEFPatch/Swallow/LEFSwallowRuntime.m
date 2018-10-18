@@ -147,7 +147,7 @@ static NSMutableDictionary *_currentInvokeSuperClsName;
         }
     }
     
-    return @{@"cls": @"" ?: @"", @"superCls": @"" ?: @""};
+    return @{@"cls": className ?: @"", @"superCls": superClassName ?: @""};
 
 }
 
